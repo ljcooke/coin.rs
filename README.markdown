@@ -1,6 +1,6 @@
 coin – heads or tails
 =====================
 
-Coin toss implemented in Rust.
+Coin flipping implemented in Rust.
 
 To get started, run `cargo run`.

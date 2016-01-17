@@ -1,8 +1,5 @@
-extern crate rand;
+extern crate wallet;
 
 fn main() {
-    println!("{}", match rand::random() {
-        true => "Heads",
-        false => "Tails",
-    });
+    println!("{}", wallet::flip_coin());
 }
